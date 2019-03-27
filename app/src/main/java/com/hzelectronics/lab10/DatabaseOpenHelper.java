@@ -8,6 +8,6 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 public class DatabaseOpenHelper extends SQLiteAssetHelper {
 
     public DatabaseOpenHelper(Context context) {
-        super(context, "lab10", null, null, 1);
+        super(context, "lab10.db", null, null, 1);
     }
 }
